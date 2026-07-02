@@ -17,7 +17,7 @@ let app = express();
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:["https://ai-powered-e-commerce-web-frontend.onrender.com","https://ai-powered-e-commerce-web-admin.onrender.com"],
+    origin:["https://ai-powered-e-commerce-web-frontend1.onrender.com","https://ai-powered-e-commerce-web-admin.onrender.com"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials:true,
     allowedHeaders: ["Content-Type", "Authorization"]
